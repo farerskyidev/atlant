@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Okta Neue";
+    src: url("./fonts/OktaNeue-Regular.eot");
+    src: local("./fonts/Okta Neue"), local("./fonts/OktaNeue-Regular"),
+    url("./fonts/OktaNeue-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/OktaNeue-Regular.woff2") format("woff2"),
+    url("./fonts/OktaNeue-Regular.woff") format("woff"),
+    url("./fonts/OktaNeue-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: "Intro";
+    src: url("./fonts/b2f90b602a9f5c2da56ad4ff3074c9ca.eot");
+    src: url("./fonts/b2f90b602a9f5c2da56ad4ff3074c9ca.eot?#iefix")
+        format("embedded-opentype"),
+    url("./fonts/b2f90b602a9f5c2da56ad4ff3074c9ca.woff") format("woff"),
+    url("./fonts/b2f90b602a9f5c2da56ad4ff3074c9ca.woff2") format("woff2"),
+    url("./fonts/b2f90b602a9f5c2da56ad4ff3074c9ca.ttf") format("truetype"),
+    url("./fonts/b2f90b602a9f5c2da56ad4ff3074c9ca.svg#Intro") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+
+    --font-family-intro: 'Intro';
+    --font-family-okta-neue: 'Okta Neue';
+
+} 
